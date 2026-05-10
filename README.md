@@ -97,7 +97,7 @@ Plus copy-paste workflow prompts in [`prompts/`](prompts/) and [`examples/`](exa
 
 ## 🔁 The 24/7 desk — loop roles
 
-One conversation. Sixteen specialists. Forever.
+One conversation. Fifteen specialists. Forever. **Every role is TradingView-native** — pure Pine Script and OHLCV, no off-chain data feeds.
 
 Drop any of these into your AI client's `/loop` command and walk away. Each role fires every 15 minutes, runs one focused research cycle through Trader Dev MCP, and writes a structured report.
 
@@ -112,11 +112,11 @@ Drop any of these into your AI client's `/loop` command and walk away. Each role
 | Category | Roles |
 |---|---|
 | 🎯 Coordination | [Hedge Fund Manager](loop/00-ai-hedge-fund-manager.md) |
-| 🧮 Strategy creation | [Quant Mathematician](loop/01-quant-mathematician.md) · [Mean Reversion Engineer](loop/02-mean-reversion-engineer.md) · [Trend Following Engineer](loop/03-trend-following-engineer.md) · [Volatility Strategist](loop/04-volatility-strategist.md) · [Stat Arb Researcher](loop/05-statistical-arbitrage-researcher.md) |
+| 🧮 Strategy creation | [Quant Mathematician](loop/01-quant-mathematician.md) · [Mean Reversion Engineer](loop/02-mean-reversion-engineer.md) · [Trend Following Engineer](loop/03-trend-following-engineer.md) · [Volatility Strategist](loop/04-volatility-strategist.md) · [Breakout Engineer](loop/05-breakout-engineer.md) |
 | 🔧 Optimization | [Strategy Optimizer](loop/06-strategy-optimizer.md) · [Position Optimizer](loop/07-position-optimizer.md) |
 | 🛡 Risk & robustness | [Risk Manager](loop/08-risk-manager.md) · [Drawdown Auditor](loop/09-drawdown-auditor.md) · [Overfitting Detector](loop/10-overfitting-detector.md) |
-| 🪙 Crypto-specific | [Funding Rate Strategist](loop/11-funding-rate-strategist.md) · [Liquidity Sweep Hunter](loop/12-liquidity-sweep-hunter.md) |
-| 🧪 Experimental | [Moon Phase Strategist](loop/13-moon-phase-strategist.md) · [Sentiment Strategist](loop/14-sentiment-strategist.md) |
+| 📐 Structural & pattern | [Multi-Timeframe Strategist](loop/11-multi-timeframe-strategist.md) · [Liquidity Sweep Hunter](loop/12-liquidity-sweep-hunter.md) · [Pattern Recognition Strategist](loop/14-pattern-recognition-strategist.md) |
+| 🧪 Experimental | [Calendar & Lunar Cycle Strategist](loop/13-moon-phase-strategist.md) |
 
 Full guide: [loop/README.md](loop/README.md).
 
