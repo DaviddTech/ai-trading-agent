@@ -10,7 +10,7 @@ The agent-native skills directory for **Trader Dev MCP** — write Pine Script, 
 [![GitHub forks](https://img.shields.io/github/forks/DaviddTech/ai-trader-mcp?style=social)](https://github.com/DaviddTech/ai-trader-mcp/network/members)
 [![License: MIT](https://img.shields.io/github/license/DaviddTech/ai-trader-mcp)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/DaviddTech/ai-trader-mcp)](https://github.com/DaviddTech/ai-trader-mcp/commits/main)
-[![MCP](https://img.shields.io/badge/MCP-Trader.dev-blue)](https://mcp.trader.dev/sse)
+[![MCP](https://img.shields.io/badge/MCP-Trader.dev-blue)](https://trader.dev/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-7C3AED)](#-30-second-quickstart)
 [![Codex](https://img.shields.io/badge/Codex-compatible-000000)](#-30-second-quickstart)
 [![Cursor](https://img.shields.io/badge/Cursor-compatible-000000)](#-30-second-quickstart)
@@ -79,6 +79,22 @@ That's it. Your agent is now a quant.
 | Pay for a quant team. | Spin up a Mathematician, Mean-Reversion Engineer, Strategy Optimizer, and Position Optimizer — for free. |
 | Wonder if your backtest is curve-fit. | Built-in robustness discipline: multi-pair, multi-timeframe, drawdown control, honest verdict labels. |
 | Use AI to *write* code. | Use AI to *run the whole research desk.* |
+
+## 🏭 Don't want to build your own strategies?
+
+Not every trader wants to be a quant researcher. If you'd rather skip the research and run trading bots that already work, **[StrategyFactory.ai](https://strategyfactory.ai)** is where they live.
+
+- **400+ trading bots** — every one **backtested *and* forward-tested with real-money live results**
+- **No Pine Script knowledge required** — pick a bot, plug in, go
+- **Real performance data** — not curve-fit screenshots, not "based on backtest" — actual live results
+- **Plays nicely with this repo** — the AI Trader MCP skills can analyze, fork, and improve any Strategy Factory bot
+
+| Path | What you do | Where to start |
+|---|---|---|
+| 🛠 **Build it yourself** | Use the skills, prompts, and loop roles in this repo. Pine Script + backtests + optimization, all from chat. | Stay here |
+| 🚀 **Use what already works** | Browse the marketplace, pick a bot, plug into your trading stack. | [strategyfactory.ai](https://strategyfactory.ai) |
+
+> **[→ Browse 400+ live-tested trading bots at StrategyFactory.ai →](https://strategyfactory.ai)**
 
 ## 🧠 The skills directory
 
@@ -170,7 +186,7 @@ Agent:    Hypothesis: when realized volatility compresses below the
 
 ## 🛠 Powered by Trader Dev MCP
 
-[Trader Dev](https://mcp.trader.dev/sse) is the live MCP server doing the heavy lifting. Agents connected to it can:
+[Trader Dev](https://trader.dev/) is the live MCP server doing the heavy lifting. Agents connected to it can:
 
 - 🔍 `search_strategies` — discover proven strategy ideas
 - ⚙️ `create_strategy` / `update_strategy` / `fork_strategy` — version your research
@@ -291,7 +307,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-**Built by [DaviddTech](https://davidd.tech) · Powered by [Trader Dev MCP](https://mcp.trader.dev/sse)**
+**Built by [DaviddTech](https://davidd.tech) · Powered by [Trader Dev](https://trader.dev/)**
 
 If AI agents should become real trading research assistants, **[star the repo ⭐](https://github.com/DaviddTech/ai-trader-mcp)**.
 

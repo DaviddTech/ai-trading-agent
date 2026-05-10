@@ -1,6 +1,6 @@
 # 🔁 Loop Roles — The AI Hedge Fund Desk
 
-This is the **24/7 quant research desk** for AI Trader MCP. Each file in this folder is a self-contained agent prompt designed to be fired on a recurring 15-minute interval using your AI client's `/loop` command (Claude Code, Codex, etc.) connected to the [Trader Dev MCP server](https://mcp.trader.dev/sse).
+This is the **24/7 quant research desk** for AI Trader MCP. Each file in this folder is a self-contained agent prompt designed to be fired on a recurring 15-minute interval using your AI client's `/loop` command (Claude Code, Codex, etc.) connected to [Trader Dev](https://trader.dev/).
 
 > **One conversation. Fifteen specialists. Forever.**
 >

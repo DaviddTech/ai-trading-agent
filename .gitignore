@@ -7,3 +7,9 @@ build/
 *.log
 .pytest_cache/
 __pycache__/
+
+# Video / large binary files (host on YouTube, link from README)
+*.mp4
+*.mov
+*.webm
+*.mkv
