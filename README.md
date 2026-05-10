@@ -28,7 +28,7 @@ The agent-native skills directory for **Trader Dev MCP** — write Pine Script, 
 
 <div align="center">
 
-https://github.com/DaviddTech/ai-trading-agent/raw/main/assets/demo.mp4
+https://github.com/user-attachments/assets/fabc1c81-dab0-4ce5-863d-2d5fa633a579
 
 *▶ Watch the AI hedge fund desk in action — 60 seconds.*
 
@@ -42,7 +42,7 @@ Most AI tools help traders write code. **AI Trader MCP helps AI agents run the e
 
 <div align="center">
 
-https://github.com/DaviddTech/ai-trading-agent/raw/main/assets/install.mp4
+https://github.com/user-attachments/assets/95757099-9a4c-4fea-a618-9b015eec942e
 
 *▶ Full install walkthrough — under a minute.*
 
