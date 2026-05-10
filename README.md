@@ -95,6 +95,31 @@ Each skill is a focused, agent-readable `SKILL.md` that turns your AI client int
 
 Plus copy-paste workflow prompts in [`prompts/`](prompts/) and [`examples/`](examples/).
 
+## 🔁 The 24/7 desk — loop roles
+
+One conversation. Sixteen specialists. Forever.
+
+Drop any of these into your AI client's `/loop` command and walk away. Each role fires every 15 minutes, runs one focused research cycle through Trader Dev MCP, and writes a structured report.
+
+```bash
+# Greenfield strategy creation, every 15 minutes
+/loop 15m read loop/01-quant-mathematician.md and execute it
+
+# Risk audits the existing book, every 15 minutes
+/loop 15m read loop/08-risk-manager.md and execute it
+```
+
+| Category | Roles |
+|---|---|
+| 🎯 Coordination | [Hedge Fund Manager](loop/00-ai-hedge-fund-manager.md) |
+| 🧮 Strategy creation | [Quant Mathematician](loop/01-quant-mathematician.md) · [Mean Reversion Engineer](loop/02-mean-reversion-engineer.md) · [Trend Following Engineer](loop/03-trend-following-engineer.md) · [Volatility Strategist](loop/04-volatility-strategist.md) · [Stat Arb Researcher](loop/05-statistical-arbitrage-researcher.md) |
+| 🔧 Optimization | [Strategy Optimizer](loop/06-strategy-optimizer.md) · [Position Optimizer](loop/07-position-optimizer.md) |
+| 🛡 Risk & robustness | [Risk Manager](loop/08-risk-manager.md) · [Drawdown Auditor](loop/09-drawdown-auditor.md) · [Overfitting Detector](loop/10-overfitting-detector.md) |
+| 🪙 Crypto-specific | [Funding Rate Strategist](loop/11-funding-rate-strategist.md) · [Liquidity Sweep Hunter](loop/12-liquidity-sweep-hunter.md) |
+| 🧪 Experimental | [Moon Phase Strategist](loop/13-moon-phase-strategist.md) · [Sentiment Strategist](loop/14-sentiment-strategist.md) |
+
+Full guide: [loop/README.md](loop/README.md).
+
 ## 📈 What you can build
 
 - **An AI hedge fund research desk** — generate hypotheses → Pine Script → backtest → compare → report.
