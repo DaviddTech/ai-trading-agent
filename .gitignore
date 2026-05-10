@@ -8,12 +8,9 @@ build/
 .pytest_cache/
 __pycache__/
 
-# Video / large binary files (host on YouTube for big videos)
+# Video / large binary files (videos are uploaded to GitHub via user-attachments
+# and embedded in README — no need to keep them in git)
 *.mp4
 *.mov
 *.webm
 *.mkv
-# Allow short demo/install videos in assets/ (kept small for inline embed)
-!assets/*.mp4
-!assets/*.mov
-!assets/*.webm
