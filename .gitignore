@@ -8,8 +8,12 @@ build/
 .pytest_cache/
 __pycache__/
 
-# Video / large binary files (host on YouTube, link from README)
+# Video / large binary files (host on YouTube for big videos)
 *.mp4
 *.mov
 *.webm
 *.mkv
+# Allow short demo/install videos in assets/ (kept small for inline embed)
+!assets/*.mp4
+!assets/*.mov
+!assets/*.webm

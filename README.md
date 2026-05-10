@@ -26,14 +26,27 @@ The agent-native skills directory for **Trader Dev MCP** — write Pine Script, 
 
 ---
 
-<!-- TODO: insert a 5–10s demo GIF here. Suggested capture: paste a Pine strategy → /backtest BTCUSD → agent returns a quant report. Save as docs/demo.gif and uncomment below. -->
-<!-- ![AI Trader MCP demo](docs/demo.gif) -->
+<div align="center">
+
+https://github.com/DaviddTech/ai-trading-agent/raw/main/assets/demo.mp4
+
+*▶ Watch the AI hedge fund desk in action — 60 seconds.*
+
+</div>
 
 > *"Just like human traders have TradingView, AI agents need their own quant research desk."*
 
 Most AI tools help traders write code. **AI Trader MCP helps AI agents run the entire research workflow** — generate hypotheses, write Pine Script, backtest, optimize, compare, and report. Built by [DaviddTech](https://davidd.tech), backtesting live on YouTube for 5+ years.
 
 ## ⚡ 30-second quickstart
+
+<div align="center">
+
+https://github.com/DaviddTech/ai-trading-agent/raw/main/assets/install.mp4
+
+*▶ Full install walkthrough — under a minute.*
+
+</div>
 
 **1. Install Trader Dev MCP in your agent (pick one):**
 
