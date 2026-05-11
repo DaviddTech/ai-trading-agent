@@ -25,7 +25,7 @@ https://mcp.trader.dev/sse
 ## 2. Give your agent this message
 
 ```text
-Read https://raw.githubusercontent.com/DaviddTech/ai-trader-mcp/main/SKILL.md and confirm Trader Dev MCP is connected.
+Read https://raw.githubusercontent.com/DaviddTech/ai-trading-agent/main/SKILL.md and confirm Trader Dev MCP is connected.
 ```
 
 ## 3. Run your first backtest
