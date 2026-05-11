@@ -6,10 +6,10 @@
 
 The agent-native skills directory for **Trader Dev MCP** — write Pine Script, backtest crypto strategies, optimize parameters, and run a full quant research desk from one conversation.
 
-[![GitHub stars](https://img.shields.io/github/stars/DaviddTech/ai-trader-mcp?style=social)](https://github.com/DaviddTech/ai-trader-mcp/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/DaviddTech/ai-trader-mcp?style=social)](https://github.com/DaviddTech/ai-trader-mcp/network/members)
-[![License: MIT](https://img.shields.io/github/license/DaviddTech/ai-trader-mcp)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/DaviddTech/ai-trader-mcp)](https://github.com/DaviddTech/ai-trader-mcp/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/DaviddTech/ai-trading-agent?style=social)](https://github.com/DaviddTech/ai-trading-agent/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/DaviddTech/ai-trading-agent?style=social)](https://github.com/DaviddTech/ai-trading-agent/network/members)
+[![License: MIT](https://img.shields.io/github/license/DaviddTech/ai-trading-agent)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/DaviddTech/ai-trading-agent)](https://github.com/DaviddTech/ai-trading-agent/commits/main)
 [![MCP](https://img.shields.io/badge/MCP-Trader.dev-blue)](https://trader.dev/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-7C3AED)](#-30-second-quickstart)
 [![Codex](https://img.shields.io/badge/Codex-compatible-000000)](#-30-second-quickstart)
@@ -68,7 +68,7 @@ Register https://mcp.trader.dev/sse as a remote SSE MCP server.
 **2. Paste this one-liner to your agent:**
 
 ```text
-Read https://raw.githubusercontent.com/DaviddTech/ai-trader-mcp/main/SKILL.md
+Read https://raw.githubusercontent.com/DaviddTech/ai-trading-agent/main/SKILL.md
 and help me build an AI hedge fund research desk using Trader Dev MCP.
 ```
 
@@ -214,15 +214,9 @@ Full tool reference: [docs/AGENT_GUIDE.md](docs/AGENT_GUIDE.md). Agents should a
 
 ## 🪙 Current market support
 
-Trader Dev currently works on **crypto pairs**. The next markets unlock with stars:
+Trader Dev currently works on **crypto pairs**.
 
-- ⭐ 500 — more prompt packs and example Pine templates
-- ⭐ 1,000 — public prompt leaderboard
-- ⭐ 2,500 — downloadable Pine Script library
-- ⭐ 5,000 — Forex data expansion begins
-- ⭐ 10,000 — US stocks + futures research roadmap
-
-If you want non-crypto markets, **[star this repo](https://github.com/DaviddTech/ai-trader-mcp)**.
+If we get enough interest, we'll add **US stocks, Forex, and Futures** next.
 
 ## 🗺 Roadmap
 
@@ -261,9 +255,9 @@ This is not a hype trading bot. The skills are written to enforce:
 
 ## ⭐ Star history
 
-[![Star History Chart](https://api.star-history.com/svg?repos=DaviddTech/ai-trader-mcp&type=Date)](https://star-history.com/#DaviddTech/ai-trader-mcp&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=DaviddTech/ai-trading-agent&type=Date)](https://star-history.com/#DaviddTech/ai-trading-agent&Date)
 
-If this repo saves you a single evening of manual backtesting, **[give it a star](https://github.com/DaviddTech/ai-trader-mcp)**. Stars unlock the roadmap above.
+If this repo saves you a single evening of manual backtesting, **[give it a star](https://github.com/DaviddTech/ai-trading-agent)**.
 
 ## 🤝 Contributing
 
@@ -322,6 +316,6 @@ MIT — see [LICENSE](LICENSE).
 
 **Built by [DaviddTech](https://davidd.tech) · Powered by [Trader Dev](https://trader.dev/)**
 
-If AI agents should become real trading research assistants, **[star the repo ⭐](https://github.com/DaviddTech/ai-trader-mcp)**.
+If AI agents should become real trading research assistants, **[star the repo ⭐](https://github.com/DaviddTech/ai-trading-agent)**.
 
 </div>
