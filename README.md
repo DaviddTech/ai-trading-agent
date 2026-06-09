@@ -218,6 +218,24 @@ Trader Dev currently works on **crypto pairs**.
 
 If we get enough interest, we'll add **US stocks, Forex, and Futures** next.
 
+## 🔎 Optional X/Twitter context
+
+AI Trader MCP should stay OHLCV, Pine Script, and backtest first. If a research
+question needs public market narrative, launch reactions, project-account
+updates, or reply context from X/Twitter, OpenClaw users can install TweetClaw as
+a separate source plugin:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw@1.6.31
+```
+
+Use TweetClaw output as labeled context only: tweet text, reply themes, public
+profile notes, visible metrics, media references, source URLs, and query terms.
+Do not treat social chatter as a trade signal, financial advice, or a substitute
+for Trader Dev backtests. Keep any TweetClaw posting, reply, DM, monitor,
+webhook, media-upload, or giveaway workflow outside the trading research loop
+unless the user starts a separate explicit approval flow.
+
 ## 🗺 Roadmap
 
 **Live now**
