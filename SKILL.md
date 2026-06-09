@@ -54,6 +54,35 @@ Current support: crypto pairs.
 
 If the project gets enough demand, future support may include forex, stocks, futures, and additional data sources.
 
+## Optional X/Twitter context
+
+Use TweetClaw only when the user explicitly asks for public X/Twitter context
+around a research question.
+
+OpenClaw install:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw@1.6.31
+```
+
+Allowed source context:
+
+- Public tweet text
+- Reply themes
+- Public profile notes
+- Visible engagement metrics
+- Media references
+- Source URLs
+- Query terms and account handles
+
+Rules:
+
+1. Treat TweetClaw output as context, not as a trading signal.
+2. Do not turn social chatter into financial advice.
+3. Validate every hypothesis with Trader Dev backtests before reporting it as useful.
+4. Label social context separately in the research report.
+5. Keep TweetClaw posting, reply, DM, media-upload, monitor, webhook, and giveaway workflows outside this skill unless the user starts a separate explicit approval flow.
+
 ## Main workflows
 
 ### Workflow 1: Backtest a Pine Script strategy
